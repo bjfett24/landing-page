@@ -219,3 +219,46 @@ button a {
     color: rgba(255, 255, 255, 0.476);
     font-weight: 200;
 }
+
+.thank-you {
+    padding: 200px;
+}
+.thank-you .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border: 20px solid rgba(0, 9, 136, 0.494);
+    border-radius: 15px;
+    gap: 20px
+}
+
+.top p{
+    font-family: Copperplate, 'Brush Script MT', 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 0px;
+    /*border: 2px solid black;*/
+    padding-bottom: 0px
+}
+
+.middle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    /*border: 2px solid black;*/
+    font-weight: 200;
+    font-size: 18px;
+}
+
+
+
+.bottom {
+    width: 500px ;
+    height: auto;
+    border: 4px solid white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
