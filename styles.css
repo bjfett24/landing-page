@@ -129,13 +129,39 @@ button a {
 }
 
 .three {
-    background-color: #E5E7EB ;
+    background-color: #e5e7ebd1 ;
     display: flex;
     flex-direction: column;
-    padding: 100px
+    padding: 100px;
+    
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: right;
+    
+}
 
+.quote {
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.author {
+    display: flex;
+    justify-content: right;
+}
+
+.three p {
+    text-align: right;
+    margin: 0px;
+    margin-right: 20px
+
+}
 
 
 .four {
