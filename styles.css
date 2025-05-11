@@ -91,11 +91,52 @@ button a {
 
 .two {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 15px;
+    background-color: #97bcf1;
+}
+.info-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.bubble {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ill {
+    border: 3px solid #2071f5;
+    width: auto;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.bubble div {
+    text-align: center;
+    margin: 4px;
+    font-weight: 600;
 }
 
 .three {
     background-color: #E5E7EB ;
+    display: flex;
+    flex-direction: column;
+    padding: 100px
 }
+
+
+
 
 .four {
     background-color: white;
